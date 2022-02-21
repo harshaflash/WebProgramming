@@ -1,0 +1,144 @@
+/*This is page three*/
+
+workbody {
+  margin: 0;
+  font-family: Georgia, serif;
+}
+.header {
+  padding: 10px 16px;
+  font-family: cursive;
+  /* background: #734f96;*/
+  color: #f1f1f1;
+}
+.header-right {
+  float: right;
+  color: black;
+}
+.header a.active {
+  color: black;
+}
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.header-right {
+  float: right;
+}
+.header a {
+  color: black;
+  text-align: center;
+  padding: 12px;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.title{
+	text-align:center;
+  font-family:cursive;
+  font-size: 30px;
+}
+
+.partition{
+        background-image: url("b.png");
+        width: auto;
+        height: 300%;
+     
+    }
+	
+.box {
+  transition: box-shadow .3s;
+  width: 310px;
+  height: 310px;
+  margin: 35px;
+  margin-left: 250px;
+  border-radius:10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  float: left;
+}
+
+.box:hover {
+  box-shadow: 0 0 30px black; 
+  border-radius: 50px;
+}
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    margin-top: 10px;
+    height: 150px;
+}
+.breed{
+	padding-left:10px;
+	font-weight:bold;
+}
+.traits{
+	padding-left:10px;
+	font-size:13px;
+	
+}
+.p{
+    display: block;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+}
+/*
+*/
+.btn {
+  background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 11px 34px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 10px;
+   cursor: pointer;
+   box-shadow: inset 0 0 0 0 #734f96;
+  transition: ease-out 0.1s;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.btn:hover {
+  /*background-color: teal;
+  color: white;*/
+   box-shadow: inset 400px 0 0 0 #734f96;
+   transform: rotate(360deg);
+}
+
+
+body {
+  height: 100%;
+  margin: 0;
+  /* background: beige; */
+  background-image: url("dgb2.jpg");
+}
+.partition2{
+    width: 1000px;
+    height: 500px;
+    margin-top: 80px;
+    margin-left: 420px;
+    background-repeat: no-repeat;
+     
+    }
+	.part2_left{
+		width:33.3%
+	}
+	.part2_center{
+		width:33.3%
+	}
+	.part2_right{
+		width:33.3%
+	}
+	.pup{
+		width:300px;
+		height:200px
+    
+	}
